@@ -1,2 +1,1 @@
-# PAMAGITE_MNE
-HELP AAAAAAAAA 
+# Статичный калькулятор
