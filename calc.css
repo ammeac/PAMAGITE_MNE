@@ -32,12 +32,12 @@ body {
 .container {
   width: 100%;
   max-width: 400px;
-  background: rgba(30, 30, 46, 0.8);
+  background: rgb(30, 30, 46, 0.8);
   backdrop-filter: blur(10px);
   border-radius: 25px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 15px 35px rgb(0, 0, 0, 0.5);
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 header {
@@ -77,8 +77,8 @@ header p {
   align-items: center;
   justify-content: flex-end;
   overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgb(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 10px rgb(0, 0, 0, 0.3);
   font-family: 'Courier New', monospace;
   letter-spacing: 2px;
 }
@@ -99,7 +99,7 @@ header p {
   transition: all 0.2s ease;
   background: var(--btn-bg);
   color: var(--light-text);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,7 +112,7 @@ header p {
 
 .btn:active {
   transform: scale(0.95);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.2);
 }
 
 .operator {
@@ -138,8 +138,8 @@ header p {
 footer {
   padding: 20px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgb(0, 0, 0, 0.2);
+  border-top: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 .signature {
@@ -157,18 +157,18 @@ footer {
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 .github-btn:hover {
   background: #444;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgb(0, 0, 0, 0.3);
 }
 
 .details {
   margin: 25px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(0, 0, 0, 0.2);
   border-radius: 15px;
   overflow: hidden;
 }
@@ -203,7 +203,7 @@ details[open] summary::after {
 
 .author-info {
   padding: 15px;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgb(0, 0, 0, 0.1);
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -216,7 +216,7 @@ details[open] summary::after {
   padding: 20px;
   font-size: 1.1rem;
   line-height: 1.6;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgb(0, 0, 0, 0.15);
   border-radius: 15px;
   margin: 25px;
 }
@@ -227,6 +227,11 @@ details[open] summary::after {
   padding: 2px 6px;
   border-radius: 4px;
   font-weight: 600;
+}
+
+.btn {
+  height: 60px;
+  font-size: 1.5rem;
 }
 
 .btn {
