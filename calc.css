@@ -5,7 +5,7 @@
   --light-text: #e6e6e6;
   --btn-bg: #4a4a6a;
   --btn-hover: #9a2305;
-  --result-bg: #9b9c9b;
+  --result-bg: #a1a5a1;
   --highlight: #e24414;
 }
 
@@ -65,6 +65,8 @@ body {
 }
 
 .btn {
+  background: #2b2242;
+  color: white;
   font-size: large;
   font-weight: bold;
   border-radius: 3px;
@@ -99,6 +101,12 @@ body {
   background: #fcb900;
 }
 
+
+.light { 
+  background: var(--accent-color);
+  color: #1b104a;
+}
+
 footer {
   padding: 5px;
   text-align: center;
@@ -114,7 +122,7 @@ footer {
 .github-btn {
   display: inline-block;
   background: #333;
-  color: white;
+  color: rgb(202, 104, 104);
   padding: 3px 5px;
   border-radius: 10px;
   text-decoration: none;
