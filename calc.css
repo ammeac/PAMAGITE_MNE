@@ -65,27 +65,21 @@ body {
 }
 
 .btn {
-  height: 30px;
-  border: none;
-  border-radius: 2px;
-  font-size: 1rem;
-  cursor: pointer;
-  background: var(--btn-bg);
-  color: var(--light-text);
-  box-shadow: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 3px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn:hover {
-  background: var(--btn-hover);
+  box-shadow: 1px 1px 25px 10px rgb(255, 3, 3, 0.927);
 }
 
-.btn:active {
-  background: var(--btn-hover);
+.btn:hover:before {
+  left: 100%;
 }
-
 .operator {
   background: var(--secondary-color);
   color: inherit;
@@ -93,7 +87,7 @@ body {
 
 .equals {
   background: var(--accent-color);
-  color: #fff;
+  color: #1b104a;
 }
 
 .double {
