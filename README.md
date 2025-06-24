@@ -98,7 +98,7 @@ SCRIPT: Содержит код исполняемых сценариев.
 
     *   FACE: Выбор шрифта.
     *   COLOR: Выбор цвета.
-    *   SIZE: Размер шрифта (от 1 до 7).
+    *   SIZE: Размер шрифта.
 
 ## Структурное форматирование
 
@@ -216,19 +216,6 @@ SCRIPT: Содержит код исполняемых сценариев.
 5.  Асинхронный JavaScript
 6.  Бэкенд на JavaScript
 7.  Web реального времени
-
-## Контрольные мероприятия
-*   **Модуль 1:**
-    *   1 РК
-    *   3 ЛР
-    *   1 ДЗ
-*   **Модуль 2:**
-    *   1 РК
-    *   3 ЛР
-    *   Доп задание
-
-## Web
-*   Подробнее: [https://vc.ru/selectel/76371-chto-proishodit-kogda-polzovatel-nabiraet-v-brauzere-adres-sayta](https://vc.ru/selectel/76371-chto-proishodit-kogda-polzovatel-nabiraet-v-brauzere-adres-sayta)
 
 ## Базовый сценарий работы web-приложения
 1.  Пользователь вводит URL
